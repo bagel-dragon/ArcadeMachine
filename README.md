@@ -10,6 +10,7 @@ This includes:
 This is meant to be used as a reference for the following:
     1. taking input from keyboard
     2. taking in an image and using it in your game
+    3. implementing motion/movement based on input
 
 # controller_test
 The controller_test folder has two files:
