@@ -15,6 +15,8 @@ clock = pygame.time.Clock()
 
 pygame.joystick.init()
 joysticks = [pygame.joystick.Joystick(i) for i in range(pygame.joystick.get_count())]
+for joystick in joysticks:
+    joystick.init()
 
 main_font = pygame.font.SysFont("comicsans", 50)
 player_1_width = 35
